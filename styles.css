@@ -1,0 +1,169 @@
+@font-face {
+    font-family: IntroRust;
+    src: url(./src/fonts/IntroRust-Base.otf);
+}
+
+@font-face {
+    font-family: AdamScript;
+    src: url(./src/fonts/AdamScript.ttf);
+}
+
+body {
+    background: #EFF1F3;
+}
+
+p, h1, h2, h3, h4, li {
+    color: #223843;
+}
+
+p {
+    font-family: "Amiri", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 180;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.short-info {
+    padding-left: 45;
+}
+
+#greeting {
+    font-family: AdamScript;
+    font-weight: lighter;
+    font-size: 40;
+    padding: 0;
+    margin: 0 0 5 0;
+}
+
+#my-name {
+    font-family: IntroRust;
+    font-weight: lighter;
+    font-size: 60;
+    padding: 0;
+    margin: 5 0 5 0;
+}
+
+#short-desc {
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30;
+    padding: 0;
+    margin: 5 0 0 0;
+}
+
+.about-section {
+    margin-top: 234;
+    margin-bottom: 153;
+    display: flex;
+    justify-content: center;
+}
+
+.section-header {
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50;
+    white-space: nowrap;
+    
+}
+
+#about-me {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 15 133 0 158;
+}
+
+.section-text {
+    font-size: 30;
+    margin-right: 161;
+}
+
+.skills-section {
+    text-align: center;
+    margin:0 50 168 50;
+}
+
+.skill-boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.skill-list {
+    font-size: 40;
+}
+
+.languages {
+    background: #D8B4A0;
+    width: 767;
+    margin-right: 24;
+    padding-bottom: 30;
+}
+
+.tools {
+    background: #77A4BB;
+    width: 767;
+    margin-left: 24;
+    padding-bottom: 30;
+
+}
+
+#projects-header {
+    margin-left: 108;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-title {
+    font-family: "Amiri", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: #223843;
+}
+
+.prev-img {
+    transition: filter 0.5s ease-in 100ms;
+}
+
+.prev-img:hover {
+    filter: brightness(70%)
+}
+
+.full-text {
+    color: #55666f;
+    transition: color 0.5s ease-in 100ms;
+}
+
+.prefix {
+    color: #223843;
+}
+
+.full-text:hover {
+    color: #223843;
+}
