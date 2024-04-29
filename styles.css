@@ -133,6 +133,14 @@ a {
 
 }
 
+.prev-img {
+    transition: filter 0.5s ease-in 100ms;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
 #projects-header {
     text-align: center;
 }
@@ -149,15 +157,11 @@ a {
     font-family: "Amiri", serif;
     font-weight: bold;
     font-style: normal;
-    font-size: 40;
+    font-size: 30;
     text-align: left;
     margin-top: 0;
     margin-bottom: 50px;
     color: #223843;
-}
-
-.prev-img {
-    transition: filter 0.5s ease-in 100ms;
 }
 
 .prev-img:hover {
