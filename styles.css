@@ -27,7 +27,7 @@ ul {
 }
 
 li {
-    margin: 20px 0;
+    margin: 20px 0 0 0;
 }
 
 a {
@@ -82,11 +82,17 @@ a {
     font-weight: 400;
     font-style: normal;
     font-size: 50;
-    white-space: nowrap;
-    
+}
+
+.section-subheader {
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40;
 }
 
 #about-me {
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     margin: 15 133 0 158;
@@ -109,6 +115,7 @@ a {
 
 .skill-list {
     font-size: 40;
+    padding-left: 0;
 }
 
 .languages {
@@ -131,9 +138,11 @@ a {
 }
 
 .project-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 100px 0 100px;
+    justify-content: center;
+    column-gap: 48px;
 }
 
 .project-title {
@@ -141,7 +150,7 @@ a {
     font-weight: bold;
     font-style: normal;
     font-size: 40;
-    text-align: center;
+    text-align: left;
     margin-top: 0;
     margin-bottom: 50px;
     color: #223843;
